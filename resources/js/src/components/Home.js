@@ -65,7 +65,7 @@ function Home(props) {
                 <div className="home_firstBlock_top_greet_container">
                     <div className="home_firstBlock_top_greetUser">
                         {" "}
-                        Hi {user?.name}, need service? boem
+                        Hi {user?.name}, need service? devops 4
                     </div>
                     <div className="home_firstBlock_top_input">
                         <Searchbar />
