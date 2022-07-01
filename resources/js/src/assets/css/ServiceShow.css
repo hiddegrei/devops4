@@ -1,0 +1,153 @@
+.sshow{
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    width:100%;
+    height:fit-content;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.sshow_title{
+    display:flex;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.sshow_description{
+    display:flex;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.sshow_dropdowns{
+    display:flex;
+    flex-direction: column;
+
+
+}
+.sshow_dropdowns_item{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+    /* border:1px solid black; */
+    width:fit-content;
+
+}
+.sshow_dropdowns_item_title{
+display:flex;
+font-weight: bold;
+}
+.sshow_checks{
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.sshow_checks_item{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.sshow_checks_item_h{
+    display:flex;
+   font-weight: bold;
+}
+.sshow_checks_item_p{
+    display:flex;
+   font-weight: 500;
+}
+
+
+
+
+.sshow_top{
+display:flex;
+width:100%;
+height:250px;
+border-bottom: 1px solid black;
+}
+
+.sshow_top_imgCon{
+    display:flex;
+    width:30%;
+    align-items: center;
+    place-content: center;
+    
+
+}
+.sshow_top_img{
+    display:flex;
+    height:70%;
+    width:auto;
+    /* border:1px solid black; */
+
+}
+.sshow_top_text{
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    height:70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-left:1px solid black;
+    padding:10px;
+
+}
+.sshow_submit{
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    padding:10px;
+    height:fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+  
+    
+}
+.sshow_btn{
+    display:flex;
+    padding:10px;
+    margin-top: 10px;
+    align-items: center;
+    place-content: center;
+}
+.sshow_top_text_h{
+    display:flex;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sshow_top_text_p{
+    display:flex;
+    font-weight: 500;
+    font-size: 18px;
+}
+.sshow_body{
+    display:flex;
+    width:100%;
+    height:fit-content;
+}
+.sshow_grid_container{
+    display:grid;
+    grid-template: 400px/ auto auto auto  ;
+    grid-template-rows: 200px 200px 200px 200px ;
+    gap: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sshow_block{
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    height:200px;
+    border:1px solid #ddd;
+    border-radius: 10px;
+   color:black;
+   padding:10px;
+  
+  
+  
+}
+

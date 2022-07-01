@@ -1,0 +1,21 @@
+.sedit{
+    display:flex;
+    flex-direction: column;
+}
+.sedit_block{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    
+
+}
+.sedit_block_title {
+    display:flex;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.sedit_block_input {
+    display:flex;
+
+}
